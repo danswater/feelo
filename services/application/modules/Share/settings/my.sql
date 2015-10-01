@@ -1,0 +1,20 @@
+CREATE TABLE `engine4_whcomments_comments` (
+  `comment_id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `parent_id` int(11) unsigned default NULL,
+  `resource_type` varchar(32) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `resource_id` int(11) unsigned NOT NULL,
+  `poster_type` varchar(32) CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
+  `poster_id` int(11) unsigned NOT NULL,
+  `body` text COLLATE utf8_unicode_ci NOT NULL,
+  `creation_date` datetime NOT NULL,
+  `like_count` int(11) unsigned NOT NULL DEFAULT '0',
+  `lt` int(20) unsigned NOT NULL,
+  `rt` int(20) unsigned NOT NULL,
+  `deleted` TINYINT(1) NOT NULL DEFAULT 0,
+  PRIMARY KEY (`comment_id`),
+  KEY `resource_type` (`resource_type`,`resource_id`),
+  KEY `poster_type` (`poster_type`,`poster_id`),
+  KEY `parent_id` (`parent_id`),
+  KEY `lt` (`lt`,`rt`),
+  KEY `rt` (`rt`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;

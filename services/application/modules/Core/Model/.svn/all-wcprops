@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model
+END
+ListItem.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/ListItem.php
+END
+Link.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Link.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Exception.php
+END
+Adphoto.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Adphoto.php
+END
+Style.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Style.php
+END
+Comment.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Comment.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Abstract.php
+END
+GeoTag.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/GeoTag.php
+END
+TagMap.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/TagMap.php
+END
+Report.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Report.php
+END
+List.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/List.php
+END
+Tag.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Tag.php
+END
+Page.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Page.php
+END
+MailTemplate.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/MailTemplate.php
+END
+Adcampaign.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Adcampaign.php
+END
+Like.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Like.php
+END
+Ad.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/wazzup2day/!svn/ver/2/trunk/application/modules/Core/Model/Ad.php
+END

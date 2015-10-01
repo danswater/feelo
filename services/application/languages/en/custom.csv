@@ -1,0 +1,46 @@
+"_EMAIL_NOTIFY_COMMENTED_SUBJECT";"[sender_title] commented on something you posted"
+"_EMAIL_NOTIFY_COMMENTED_BODY";"[header]
+	<div class='main-region' style='text-align: center'>
+		<div class='container' style='margin: 0 auto; background-color: #fff; width: 80%; padding:20px 0px'>
+		
+			<div class='description content-region'>
+				<p style='font-family: arial'>
+
+					<p style='font-family: arial;'><img src='http://[host][sender_photo]' align='middle' style='width: 50px; height; 50px; border-radius: 150px'> [sender_title] commented on your post</p>
+					<p style='font-family: arial;'><a style='text-decoration: none;' href='http://[host][object_link]'>http://[host][object_link]</a></p>
+				</p>
+			</div>
+
+		</div>
+	</div>
+	[footer]"
+"_EMAIL_FOOTER_MEMBER_SUBJECT";""
+"_EMAIL_FOOTER_MEMBER_BODY";"<div class='footer-region' style='text-align: center'>
+		<div class='content-region' style='margin: 0 auto;'>
+			<p>
+				<a href='http://yamba.rocks/help/contact' style='text-decoration:none; color: #404040'>contact</a>
+				<a href='javascript:void(0)' style='text-decoration:none; color: #404040'>manage notification</a>
+			</p>	
+		</div>
+		<div style='clear:both'></div>
+		<div class='content-region'>
+			<p style='font-family: arial; font-weight:bold;'> yamba 2015 </p>
+		</div>
+	</div>
+</div>
+"
+"_EMAIL_FOOTER_SUBJECT";""
+"_EMAIL_FOOTER_BODY";"<div class='footer-region' style='text-align: center'>
+		<div class='content-region' style='margin: 0 auto;'>
+			<p>
+				<a href='http://yamba.rocks/help/contact' style='text-decoration:none; color: #404040'>contact</a>
+				<a href='javascript:void(0)' style='text-decoration:none; color: #404040'>manage notification</a>
+			</p>	
+		</div>
+		<div style='clear:both'></div>
+		<div class='content-region'>
+			<p style='font-family: arial; font-weight:bold;'> yamba 2015 </p>
+		</div>
+	</div>
+</div>
+"

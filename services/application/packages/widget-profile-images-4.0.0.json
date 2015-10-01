@@ -1,0 +1,73 @@
+{
+  "type": "widget",
+  "name": "profile-images",
+  "version": "4.0.0",
+  "revision": null,
+  "path": "application\/widgets\/profile-images",
+  "repository": null,
+  "date": "Mon, 21 Jan 2013 09:02:45 +0000",
+  "title": "Profile Images",
+  "description": "",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Webhive Team"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Mon, 21 Jan 2013 09:02:45 +0000",
+    "title": "Profile Images",
+    "description": "",
+    "developer": null,
+    "authors": [
+      "Webhive Team"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "remove"
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/widgets\/profile-images": {
+      "type": "directory",
+      "path": "application\/widgets\/profile-images",
+      "structure": [
+        {
+          "path": "index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 42,
+          "sha1": "d91db4e763b217b42cd142846be3b6eb57f4de54"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 652,
+          "sha1": "65de000343012a223c9c0f53e05c7d1d2846d86a"
+        },
+        {
+          "path": "Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 135,
+          "sha1": "ab27b89b4e07af11c36dbe3d360b0ee62b55e7f1"
+        }
+      ]
+    }
+  }
+}

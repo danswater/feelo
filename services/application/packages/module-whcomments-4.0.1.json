@@ -1,0 +1,434 @@
+{
+  "type": "module",
+  "name": "whcomments",
+  "version": "4.0.1",
+  "revision": null,
+  "path": "application\/modules\/Whcomments",
+  "repository": null,
+  "date": "Mon, 05 Aug 2013 13:27:52 +0000",
+  "title": "Whcomments",
+  "description": "",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "WebHive Team"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Mon, 05 Aug 2013 13:27:52 +0000",
+    "title": "Whcomments",
+    "description": "",
+    "developer": null,
+    "authors": [
+      "WebHive Team"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Whcomments": {
+      "type": "directory",
+      "path": "application\/modules\/Whcomments",
+      "structure": [
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/comments",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/comments\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 4245,
+          "sha1": "3ed9c971a21f65d1432ecd4793e332a2320ae94a"
+        },
+        {
+          "path": "widgets\/comments\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1979,
+          "sha1": "40402c1ed6607e833da72b8bd06f11041950cbad"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 923,
+          "sha1": "a2ae1b0d51ba3116683c11529a911306b4f58e21"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 853,
+          "sha1": "03a0446334ae746a9a743f28282e86b6e318558e"
+        },
+        {
+          "path": "settings\/my-install.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 168,
+          "sha1": "ef182b8c0c248eda1ac0ef8464013b50634c2734"
+        },
+        {
+          "path": "settings\/my-upgrade-4.0.0-4.0.1.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 107,
+          "sha1": "a0c88e229d20ebbad9fd442b7cf287f0bf0498ef"
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 394,
+          "sha1": "5479426adbb8d252781f93cff15d7eb5bd4599cc"
+        },
+        {
+          "path": "Api",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Api\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 67,
+          "sha1": "bdeba7aa5cb98259beea8f7044c390a2b7f87d61"
+        },
+        {
+          "path": "View",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "View\/Helper",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "View\/Helper\/Comments.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 4299,
+          "sha1": "dc25304685593e408e703ee1ade4334785e051dc"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Comment",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Comment\/Create.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 2027,
+          "sha1": "f0c3814918d6d09440939279c690600e4c828445"
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/comment",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/comment\/list.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 4167,
+          "sha1": "cc3571423b804c7aba655e59b6f8bf8d736cd9d1"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 3891,
+          "sha1": "bb2c14dd907391e4e0ff423db6de62171044fc9f"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 2835,
+          "sha1": "7fd33a6b9f2fd34365ec1142c24fc9b29785e230"
+        },
+        {
+          "path": "controllers\/CommentController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 15139,
+          "sha1": "0c2e3e8fda42d84ccebe20a886dbdcea78ae571a"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/Comments.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 25740,
+          "sha1": "5a40dfb13e20f8cfe095826ee9823739a96e1acc"
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model\/Comment.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 116,
+          "sha1": "465a6724e7dfeb0e201d5a7818d03dfe65dc306a"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/core.js",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 3459,
+          "sha1": "f5feedbf9a002814503260cd388396278aa26159"
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/omg.png",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1730,
+          "sha1": "ce839bcd1e3ae199bcb7d9567e41ef6b38572045"
+        },
+        {
+          "path": "externals\/images\/nice.png",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1717,
+          "sha1": "0b78bf5554af0425e5c405082e24b1666b98ebdf"
+        },
+        {
+          "path": "externals\/images\/sad.png",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1663,
+          "sha1": "25be8ee2ca35b061f3cf89b49936c67aab013bf7"
+        },
+        {
+          "path": "externals\/images\/happy.png",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1705,
+          "sha1": "0c5c4c06511d7d7c97097a3c1b3d7641f8b2fa28"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1578,
+          "sha1": "ba9714943cb78c609b9d27487113b5967ee383f3"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 228,
+          "sha1": "4f7b3cce0fcd04440251d273b81829cda31546c0"
+        }
+      ]
+    },
+    "application\/languages\/en\/whcomments.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/whcomments.csv",
+      "structure": {
+        "path": "whcomments.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0660",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "type": "theme",
+  "name": "wazzap2day",
+  "version": "4.2.9",
+  "revision": null,
+  "path": "application\/themes\/wazzap2day",
+  "repository": null,
+  "date": "Thu, 10 Jan 2013 15:55:51 +0000",
+  "title": "Wazzap2day",
+  "description": "",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "WebHive Team"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Thu, 10 Jan 2013 15:55:51 +0000",
+    "title": "Wazzap2day",
+    "description": "",
+    "developer": null,
+    "authors": [
+      "WebHive Team"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "remove"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Theme",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/themes\/wazzap2day": {
+      "type": "directory",
+      "path": "application\/themes\/wazzap2day",
+      "structure": [
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 565,
+          "sha1": "3a71572fb8f7b9e73605ff083d2b6bd3c648d93a"
+        },
+        {
+          "path": "images",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "constants.css",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "default_theme.jpg",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 6119,
+          "sha1": "0564de905c7e3d9857af255480cc4ec295729b09"
+        },
+        {
+          "path": "theme.css",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 160,
+          "sha1": "d361c636c0c8e9642a0dee3e58231eae5c387bdb"
+        }
+      ]
+    }
+  }
+}

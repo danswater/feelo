@@ -1,0 +1,52 @@
+[
+    {
+        "name": "ksubileau/color-thief-php",
+        "version": "v1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ksubileau/color-thief-php.git",
+            "reference": "7707de02d774e0445a847866641c70f8bb9b7b04"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ksubileau/color-thief-php/zipball/7707de02d774e0445a847866641c70f8bb9b7b04",
+            "reference": "7707de02d774e0445a847866641c70f8bb9b7b04",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "suggest": {
+            "ext-gd": "to use the GD image adapter.",
+            "ext-imagick": "to use the Imagick image adapter."
+        },
+        "time": "2014-06-25 22:38:05",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "ColorThief": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "CC-BY-2.5"
+        ],
+        "authors": [
+            {
+                "name": "Kevin Subileau",
+                "homepage": "http://www.kevinsubileau.fr"
+            }
+        ],
+        "description": "Grabs the dominant color or a representative color palette from an image.",
+        "homepage": "http://www.kevinsubileau.fr/projets/color-thief-php",
+        "keywords": [
+            "color",
+            "dominant",
+            "palette",
+            "php",
+            "thief"
+        ]
+    }
+]

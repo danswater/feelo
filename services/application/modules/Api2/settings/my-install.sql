@@ -1,0 +1,1 @@
+INSERT IGNORE INTO `engine4_core_modules` (`name`, `title`, `description`, `version`, `enabled`, `type`) VALUES  ('api-2', 'Api 2', '', '4.2.0', 1, 'extra') ;

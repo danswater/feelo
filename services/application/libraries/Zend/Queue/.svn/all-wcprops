@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/wazzup2day/!svn/ver/2/trunk/application/libraries/Zend/Queue
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/wazzup2day/!svn/ver/2/trunk/application/libraries/Zend/Queue/Exception.php
+END
+Message.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/wazzup2day/!svn/ver/2/trunk/application/libraries/Zend/Queue/Message.php
+END

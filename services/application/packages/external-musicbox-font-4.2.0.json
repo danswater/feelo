@@ -1,0 +1,63 @@
+{
+  "type": "external",
+  "name": "musicbox-font",
+  "version": "4.2.5",
+  "revision": "$Revision: 9729 $",
+  "path": "externals\/musicbox-font",
+  "repository": "socialengine.com",
+  "date": "Thu, 31 May 2012 13:05:00 +0000",
+  "title": "Musicbox Font",
+  "description": "Musicbox Font",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Webligo Developments"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Thu, 31 May 2012 13:05:00 +0000",
+    "title": "Musicbox Font",
+    "developer": null,
+    "authors": [
+      "Webligo Developments"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh"
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "externals\/musicbox-font": {
+      "type": "directory",
+      "path": "externals\/musicbox-font",
+      "structure": [
+        {
+          "path": "font.css",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 59,
+          "sha1": "23df4b0935b50c7b03493479a844bc4236764332"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 485,
+          "sha1": "8f73208b073a02a0c5824c06042a47be66dcd89c"
+        }
+      ]
+    }
+  }
+}

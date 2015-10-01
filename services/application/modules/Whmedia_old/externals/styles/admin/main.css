@@ -1,0 +1,75 @@
+.optional {
+	min-width:40px;
+	float:left;
+}
+#image_width {
+	margin-bottom:5px;
+}
+
+.clcache .buttonlink {
+  float:right;
+  +rounded;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+  background-color: $theme_button_background_color;
+  border: 1px solid $theme_button_border_color;
+  color: #fbfbfb !important;
+  background-image: url(~/application/modules/Core/externals/images/buttonbg.png);
+  background-repeat: repeat-x !important;
+  background-position: 0px 1px;
+  margin-top:20px;
+  margin-right:0px !important;
+  display:block;
+  padding-left:5px !important;  
+}
+
+.clcache .buttonlink:hover {
+  text-decoration:none;
+  cursor:pointer;
+  background-color:#7eb6d5;
+}*/
+
+#global_page_whmedia-admin-settings-categories .settings .smoothbox {
+  margin:0px 7px 0px 5px;
+}
+.clcache{
+	float:right;
+	width:250px;
+	border:10px solid #E9F4FA;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;	
+}
+.clcache p{
+	float:left;
+	border:1px solid #D7E8F1;
+	padding:10px;	
+}
+.settings form {
+	width:650px;
+}	
+.optional {
+	white-space:nowrap;
+	padding:5px 0px 3px 0px;
+	float:none;
+	display:block;
+}
+#arrow_sliding-label .optional{
+	white-space:normal;
+}
+.form-options-wrapper{
+	margin-top:5px;
+}
+table.admin_table tbody tr td {
+	vertical-align:middle !important;
+}
+table.admin_table tbody tr td:last-child {
+	white-space:inherit !important;
+}
+#global_page_whmedia-admin-settings-categories .settings form > div a{
+  background-image: url(~/application/modules/Core/externals/images/admin/new_category.png);    
+}
+#global_page_whmedia-admin-settings-categories #step_list a{
+  background:none !important;
+}

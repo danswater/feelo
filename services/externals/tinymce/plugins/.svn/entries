@@ -1,0 +1,133 @@
+10
+
+dir
+76
+http://192.168.0.10:8890/repos/wazzup2day/trunk/externals/tinymce/plugins
+http://192.168.0.10:8890/repos/wazzup2day
+
+
+
+2012-10-16T15:31:09.399304Z
+2
+dek
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fb1e8f65-40b2-415d-be79-9ceecdf60b64
+
+media
+dir
+
+pagebreak
+dir
+
+insertdatetime
+dir
+
+noneditable
+dir
+
+inlinepopups
+dir
+
+autoresize
+dir
+
+example
+dir
+
+emotions
+dir
+
+iespell
+dir
+
+save
+dir
+
+advhr
+dir
+
+tabfocus
+dir
+
+advlist
+dir
+
+layer
+dir
+
+advimage
+dir
+
+preview
+dir
+
+directionality
+dir
+
+visualchars
+dir
+
+wordcount
+dir
+
+legacyoutput
+dir
+
+table
+dir
+
+autosave
+dir
+
+advlink
+dir
+
+print
+dir
+
+nonbreaking
+dir
+
+fullpage
+dir
+
+style
+dir
+
+searchreplace
+dir
+
+fullscreen
+dir
+
+spellchecker
+dir
+
+contextmenu
+dir
+
+template
+dir
+
+paste
+dir
+
+bbcode
+dir
+
+xhtmlxtras
+dir
+

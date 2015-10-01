@@ -1,0 +1,24 @@
+/* box shadow IE7-8 */
+.b-users .item-holder:hover .item {
+	margin:-6px;
+	filter:
+		progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=45, Strength=3)
+		progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=135, Strength=3)
+		progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=225, Strength=3)
+		progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=315, Strength=3);
+}
+.circle-hint {
+	filter:
+		progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=45, Strength=3)
+		progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=135, Strength=3)
+		progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=225, Strength=3)
+		progid:DXImageTransform.Microsoft.Shadow(color='#aaaaaa', Direction=315, Strength=3);
+}
+
+/* title border-radius */
+.circle-user .title {
+	background:none;
+	filter:
+		progid:DXImageTransform.Microsoft.Alpha(opacity=50)
+		progid:dximagetransform.microsoft.alphaimageloader(src='application/modules/Circles/externals/images/shadow-title.png', sizingmethod='scale');
+}

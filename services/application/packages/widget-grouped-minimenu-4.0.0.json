@@ -1,0 +1,73 @@
+{
+  "type": "widget",
+  "name": "grouped-minimenu",
+  "version": "4.0.0",
+  "revision": null,
+  "path": "application\/widgets\/grouped-minimenu",
+  "repository": null,
+  "date": "Mon, 21 Jan 2013 16:37:05 +0000",
+  "title": "Grouped Mini menu",
+  "description": "",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "WebHive Team"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Mon, 21 Jan 2013 16:37:05 +0000",
+    "title": "Grouped Mini menu",
+    "description": "",
+    "developer": null,
+    "authors": [
+      "WebHive Team"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "remove"
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/widgets\/grouped-minimenu": {
+      "type": "directory",
+      "path": "application\/widgets\/grouped-minimenu",
+      "structure": [
+        {
+          "path": "index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 44,
+          "sha1": "81f426385a45aa5430af5ccce087a9afaecf3e00"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 666,
+          "sha1": "77474131478aa084cb57c26678c84fae18bf00e9"
+        },
+        {
+          "path": "Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 137,
+          "sha1": "7cd69985bba08ae7e3c6d87030c9798dca07b177"
+        }
+      ]
+    }
+  }
+}

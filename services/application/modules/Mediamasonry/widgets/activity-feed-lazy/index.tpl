@@ -1,0 +1,1 @@
+<?php echo $this->render('application/modules/Mediamasonry/widgets/featured-project-lazy/index.tpl') ?>

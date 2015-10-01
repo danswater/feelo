@@ -1,0 +1,116 @@
+10
+
+dir
+96
+http://192.168.0.10:8890/repos/wazzup2day/trunk/application/modules/Core/Form/Admin
+http://192.168.0.10:8890/repos/wazzup2day
+
+
+
+2012-10-16T15:31:09.399304Z
+2
+dek
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fb1e8f65-40b2-415d-be79-9ceecdf60b64
+
+Ads
+dir
+
+Auth
+dir
+
+File
+dir
+
+Filter.php
+file
+
+
+
+
+2013-01-17T10:10:43.325142Z
+040f5f85f7d43877414628fd00fc2f42
+2012-10-16T15:31:09.399304Z
+2
+dek
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+827
+
+Index
+dir
+
+Job
+dir
+
+Language
+dir
+
+Layout
+dir
+
+Mail
+dir
+
+Menu
+dir
+
+Message
+dir
+
+Report
+dir
+
+Services
+dir
+
+Settings
+dir
+
+Statistics
+dir
+
+System
+dir
+
+Tasks
+dir
+
+Themes
+dir
+
+Widget
+dir
+

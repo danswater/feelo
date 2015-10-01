@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/wazzup2day/!svn/ver/2/trunk/application/libraries/Facebook
+END
+Api.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/wazzup2day/!svn/ver/2/trunk/application/libraries/Facebook/Api.php
+END
+Base.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/wazzup2day/!svn/ver/2/trunk/application/libraries/Facebook/Base.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/wazzup2day/!svn/ver/2/trunk/application/libraries/Facebook/Exception.php
+END
+fb_ca_chain_bundle.crt
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/wazzup2day/!svn/ver/2/trunk/application/libraries/Facebook/fb_ca_chain_bundle.crt
+END
+manifest.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/wazzup2day/!svn/ver/2/trunk/application/libraries/Facebook/manifest.php
+END

@@ -1,0 +1,79 @@
+.layout_whcomments_comments .comments {width: 650px;}
+.layout_whcomments_comments .comment_wrapper {background: #fff; margin-bottom: 5px;padding: 10px;}
+.layout_whcomments_comments .comment_item, .layout_whcomments_comments .comment_wrapper {overflow: hidden;}
+.layout_whcomments_comments .comment_item .comment_item {margin-left: 55px;}
+.layout_whcomments_comments .comments_body {
+    display: block;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.layout_whcomments_comments .comments .comments_author a {
+    font-weight: bold;
+    margin-right: 2px;
+    color: #434343;
+    font-size:12px;
+    padding-bottom: 2px;
+}
+.layout_whcomments_comments .comment_form button {margin-top: 5px;}
+.layout_whcomments_comments .timestamp.timestamp-update {margin-right: 2px}
+.layout_whcomments_comments .comments_info + div {clear: both;height: auto !important;}
+.layout_whcomments_comments textarea#body {
+	margin: 5px 5px 5px 0; 
+	float: left;resize: vertical; 
+	background: #fff; 
+	height: 82px; 
+	border: 0;
+	text-align : center;
+	resize: none;
+}
+
+.layout_whcomments_comments textarea#body:focus {text-align: left;}
+.layout_whcomments_comments textarea#body:not(:invalid) {text-align: left;}
+.layout_whcomments_comments textarea#body:invalid {box-shadow: none;}
+.layout_whcomments_comments textarea#body:focus::-moz-placeholder {opacity: 0;}
+
+.layout_whcomments_comments textarea#body::-moz-placeholder {
+	padding-top: 25px;
+	font-size: 15px;
+    text-align: center; 
+}
+
+.layout_whcomments_comments textarea#body::-webkit-input-placeholder {
+	padding-top: 25px;
+	font-size: 15px;
+    text-align: center;
+}
+
+.smiles{
+	overflow: hidden;
+	background: #f9f9f9 ;
+	border-radius: 5px;
+	padding: 5px 10px;
+}
+.comments > ul.smiles li{
+	float: left;
+	padding: 0;
+	background: none;
+	height: 29px;
+	overflow: hidden;
+}
+.comments > ul.smiles li + li{
+	border: none;
+	margin-left: 5px;
+}
+.comments > ul.smiles li img{
+	width: 34px;
+	height: auto;
+}
+.comment_deleted{
+	background: #FFF;
+	margin-bottom: 5px;
+	padding: 7px 10px;
+	color: #BBB;
+}
+.comments_body img{
+	vertical-align: middle;
+}
+.layout_whcomments_comments .comment_item .comment_item.noindent > .comment_item.noindent{
+	margin-left: 0;
+} 

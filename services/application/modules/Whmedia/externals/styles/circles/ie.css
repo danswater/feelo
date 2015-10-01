@@ -1,0 +1,6 @@
+/* containers */
+.clearfix,
+.easyfix {zoom:1;}
+
+/* page vertical align IE7 */
+* +html .page {margin-top:expression(this.parentNode.offsetHeight > this.offsetHeight ? ((this.parentNode.offsetHeight-this.offsetHeight)/2 + "px") : "0");}

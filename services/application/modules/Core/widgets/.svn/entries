@@ -1,0 +1,91 @@
+10
+
+dir
+96
+http://192.168.0.10:8890/repos/wazzup2day/trunk/application/modules/Core/widgets
+http://192.168.0.10:8890/repos/wazzup2day
+
+
+
+2012-10-16T15:31:09.399304Z
+2
+dek
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fb1e8f65-40b2-415d-be79-9ceecdf60b64
+
+ad-campaign
+dir
+
+admin-dashboard
+dir
+
+admin-environment
+dir
+
+admin-menu-logo
+dir
+
+admin-menu-main
+dir
+
+admin-menu-mini
+dir
+
+admin-news
+dir
+
+admin-statistics
+dir
+
+comments
+dir
+
+contact
+dir
+
+container-tabs
+dir
+
+content
+dir
+
+html-block
+dir
+
+menu-footer
+dir
+
+menu-generic
+dir
+
+menu-logo
+dir
+
+menu-main
+dir
+
+menu-mini
+dir
+
+profile-links
+dir
+
+statistics
+dir
+
+theme-choose
+dir
+

@@ -1,0 +1,290 @@
+{
+  "type": "module",
+  "name": "api",
+  "version": "4.0.1",
+  "revision": null,
+  "path": "application\/modules\/Api",
+  "repository": null,
+  "date": "Fri, 13 Sep 2013 14:29:32 +0000",
+  "title": "Api",
+  "description": "",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "Webhive Team"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Fri, 13 Sep 2013 14:29:32 +0000",
+    "title": "Api",
+    "description": "",
+    "developer": null,
+    "authors": [
+      "Webhive Team"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Api": {
+      "type": "directory",
+      "path": "application\/modules\/Api",
+      "structure": [
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0664",
+          "size": 1319,
+          "sha1": "da946ad9597e53b5bee582f0a211a1e546925e8a"
+        },
+        {
+          "path": "controllers\/AuthController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 2294,
+          "sha1": "d68d535c573d69888cd7ad647d146b5e490c1583"
+        },
+        {
+          "path": "controllers\/ActivityController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 4153,
+          "sha1": "46679cd14cb4d7b737682de7fdd3afcd20e46116"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model\/DbTable\/Auth.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 102,
+          "sha1": "2247a70f0c150d9014f6e3f40d941b61775e4b41"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 76,
+          "sha1": "abcdda8af8795fcb093ca2698252dae3b8221774"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Auth.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 2392,
+          "sha1": "0db0fe2d4ee6053f4ef976b970594a97cd9a904b"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0664",
+          "size": 174,
+          "sha1": "cc5634192c0cfb796f77fde1d938eb1213635441"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0664",
+          "size": 1123,
+          "sha1": "4ea4596d48d7fe5964f138d277a2464ad6b69e4e"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0664",
+          "size": 860,
+          "sha1": "bfb7dd988d7f6ef419aeeb39d749e1ced0d1e7ab"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "2755",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        }
+      ]
+    },
+    "application\/languages\/en\/api.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/api.csv",
+      "structure": {
+        "path": "api.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0644",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}

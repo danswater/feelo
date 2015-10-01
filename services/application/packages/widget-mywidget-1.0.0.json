@@ -1,0 +1,73 @@
+{
+  "type": "widget",
+  "name": "mywidget",
+  "version": "1.0.0",
+  "revision": null,
+  "path": "application\/widgets\/mywidget",
+  "repository": null,
+  "date": "Tue, 25 Feb 2014 09:58:59 +0000",
+  "title": "my widget",
+  "description": "",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "me"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Tue, 25 Feb 2014 09:58:59 +0000",
+    "title": "my widget",
+    "description": "",
+    "developer": null,
+    "authors": [
+      "me"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "remove"
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/widgets\/mywidget": {
+      "type": "directory",
+      "path": "application\/widgets\/mywidget",
+      "structure": [
+        {
+          "path": "Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 130,
+          "sha1": "858399699364845b5143744d9a25918765d45be6"
+        },
+        {
+          "path": "index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 37,
+          "sha1": "7af882c6a1314b1ed801765de50d72e53f77544c"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0666",
+          "size": 608,
+          "sha1": "fd2540fb6389f97e7bb2f9f8a355b5e1b7c41cf5"
+        }
+      ]
+    }
+  }
+}

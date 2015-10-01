@@ -1,0 +1,110 @@
+
+body{
+	 background: url(~/application/themes/wazzap2day/images/front-page/background.png) no-repeat center center fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+  	background-size: cover !important;
+
+}
+
+span{
+	color: #85eef6;
+}
+
+/* 2560/1440 */
+
+img {
+    vertical-align: middle;
+    border: 0;
+    page-break-inside: avoid;
+    max-width: 100% !important;
+}
+
+
+#footer-rapper ul li a:hover{
+
+}
+
+#footer-rapper ul li{
+	float: left;
+}
+
+a{ text-decoration: none !important;}
+
+.login-buttom-rapper a:hover,
+#footer-rapper ul li a:hover{
+	border-bottom: 1px solid #fff !important;
+}
+
+#footer-rapper{
+	clear: both;
+}
+	
+/* standard monitor */
+@media (min-width: 0px),
+@media (min-width: 1024px){
+	#frontpage-container{
+		margin-left: 71px;
+	}
+
+	#logo-rapper{
+		margin: 98px 0px 79px 0px;
+	}
+
+	#moto-rapper{
+		margin-bottom: 121px;
+	}
+
+	.join-buttom-rapper{
+		height: 42px;
+		width: 203px;
+		background: #fff;
+		border-radius:5px;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 42px;
+	}
+
+	.join-buttom-rapper span{
+		font-size: 20px;
+		color: #19aac8;
+	}
+
+	#join-rapper{
+		width: 203px;
+		text-align: center;
+	}
+
+	.login-buttom-rapper span{
+		font-size: 20px;
+	}
+
+	#join-rapper .join-desc{
+		font-size: 10px;
+	}
+
+	#login-rapper{
+		margin: 100px 0px 36px 0px;
+	}
+	
+	#footer-rapper ul li{
+		padding: 0px 10px 0px 0px;
+		margin: 0px 0px 30px 0px;
+	}
+
+	#img-logo{
+		width: 200px;
+	}
+
+	#img-moto{
+		/*width: 300px; */
+	}
+
+}
+
+
+/* big monitor */
+@media (min-width: 2560px){
+
+}

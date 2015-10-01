@@ -1,0 +1,73 @@
+{
+  "type": "widget",
+  "name": "profile-status",
+  "version": "4.0.0",
+  "revision": null,
+  "path": "application\/widgets\/profile-status",
+  "repository": null,
+  "date": "Tue, 22 Jan 2013 10:07:16 +0000",
+  "title": "Profile Status",
+  "description": "",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "WebHive team"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Tue, 22 Jan 2013 10:07:16 +0000",
+    "title": "Profile Status",
+    "description": "",
+    "developer": null,
+    "authors": [
+      "WebHive team"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "remove"
+  ],
+  "callback": null,
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/widgets\/profile-status": {
+      "type": "directory",
+      "path": "application\/widgets\/profile-status",
+      "structure": [
+        {
+          "path": "index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 42,
+          "sha1": "4b9e1392b303545ccca187753b2052a43641e5d0"
+        },
+        {
+          "path": "manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 652,
+          "sha1": "492c236043252dcbdb0cc683b0d96f82f13aaf43"
+        },
+        {
+          "path": "Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 135,
+          "sha1": "b624748d25bf8a5cea4750241f4cf7426edcb9f9"
+        }
+      ]
+    }
+  }
+}

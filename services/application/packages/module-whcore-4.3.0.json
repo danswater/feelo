@@ -1,0 +1,346 @@
+{
+  "type": "module",
+  "name": "whcore",
+  "version": "4.3.0",
+  "revision": null,
+  "path": "application\/modules\/Whcore",
+  "repository": null,
+  "date": "Thu, 28 Mar 2013 13:08:55 +0000",
+  "title": "WebHive Core",
+  "description": "",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "WebHive Team"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Thu, 28 Mar 2013 13:08:55 +0000",
+    "title": "WebHive Core",
+    "description": "",
+    "developer": null,
+    "authors": [
+      "WebHive Team"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Whcore": {
+      "type": "directory",
+      "path": "application\/modules\/Whcore",
+      "structure": [
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/share-social",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/share-social\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 3050,
+          "sha1": "b9649bd998424d02bf3086c500d9b03d992548d7"
+        },
+        {
+          "path": "widgets\/share-social\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 493,
+          "sha1": "ba293685d3e3370b142e9cf29f5279f9db7c1825"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 859,
+          "sha1": "1ed1f539a745c3dda4cf7af1a8a9d80f69603c0b"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 786,
+          "sha1": "2cf94cf3988117753ca00be74dd959c80dc6fb14"
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 341,
+          "sha1": "9167c3ca44b12650543b6565d13c82512093f7d4"
+        },
+        {
+          "path": "View",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "View\/Helper",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "View\/Helper\/HeadMeta.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1594,
+          "sha1": "c571f373e967ea72ae5d902d55fcc91faef31115"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Global.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1546,
+          "sha1": "1e20c17d651db6430ac23c67ecc39da2d83b2409"
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 784,
+          "sha1": "608ef43c003f53a6c25544ca7ac634a5f7f8430f"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 784,
+          "sha1": "10f47ac0f222fb4dcc40316314d1d253cddf7057"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 976,
+          "sha1": "65da25d4ac9b211c5cf7188ca25e2010428f039c"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 72,
+          "sha1": "dc683c2a81122d1cd017c16d9f4cc136d24226e5"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 389,
+          "sha1": "acbf7bf1d3c9b4e7e147636e1ae68d0c185914a7"
+        }
+      ]
+    },
+    "application\/languages\/en\/whcore.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/whcore.csv",
+      "structure": {
+        "path": "whcore.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0660",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}

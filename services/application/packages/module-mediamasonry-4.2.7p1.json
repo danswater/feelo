@@ -1,0 +1,539 @@
+{
+  "type": "module",
+  "name": "mediamasonry",
+  "version": "4.2.7p1",
+  "revision": null,
+  "path": "application\/modules\/Mediamasonry",
+  "repository": null,
+  "date": "Tue, 16 Oct 2012 08:15:28 +0000",
+  "title": "Media Addon: Masonry",
+  "description": "This addon allows to use masonry layout to display projects from plugin Media (Portfolio). It includes 8 additional widgets.",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "WebHive Team"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Tue, 16 Oct 2012 08:15:28 +0000",
+    "title": "Media Addon: Masonry",
+    "description": "This addon allows to use masonry layout to display projects from plugin Media (Portfolio). It includes 8 additional widgets.",
+    "developer": null,
+    "authors": [
+      "WebHive Team"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": {
+    "module-whmedia": {
+      "type": "module",
+      "name": "whmedia",
+      "guid": "module-whmedia",
+      "minVersion": "4.2.7p1",
+      "maxVersion": null,
+      "excludeExcept": null
+    }
+  },
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Mediamasonry": {
+      "type": "directory",
+      "path": "application\/modules\/Mediamasonry",
+      "structure": [
+        {
+          "path": "widgets",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/featured-media",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/featured-media\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 3435,
+          "sha1": "d04d619ad61eb04acf6c6adb8b524343b89fc362"
+        },
+        {
+          "path": "widgets\/featured-media\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 633,
+          "sha1": "1e5aa2c8d307f4018e3ac080312dc5247b15b671"
+        },
+        {
+          "path": "widgets\/featured-project",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/featured-project\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 3898,
+          "sha1": "4ac5b11d6930054991b2b848e0cd7cb612943aba"
+        },
+        {
+          "path": "widgets\/featured-project\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 641,
+          "sha1": "96d4b41396781f9f59b691af7da2092a40a958ad"
+        },
+        {
+          "path": "widgets\/popular-media",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/popular-media\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 3435,
+          "sha1": "d04d619ad61eb04acf6c6adb8b524343b89fc362"
+        },
+        {
+          "path": "widgets\/popular-media\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 630,
+          "sha1": "1d25c7d5f29602c8b19baa061a1d5c4b5a0e526f"
+        },
+        {
+          "path": "widgets\/profile-fmedia",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/profile-fmedia\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 5478,
+          "sha1": "4a18c25b5b8fbaf3e3d1749625408b094bab7f55"
+        },
+        {
+          "path": "widgets\/profile-fmedia\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 633,
+          "sha1": "c6843dc8f18163f353568f1decdd8b52b45a9e49"
+        },
+        {
+          "path": "widgets\/profile-fproject",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/profile-fproject\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 6080,
+          "sha1": "81f495d17d61fd7ddcad3f796484899c0867260a"
+        },
+        {
+          "path": "widgets\/profile-fproject\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 637,
+          "sha1": "f13a875261b349ebf4bae0ac609af4d7148e8366"
+        },
+        {
+          "path": "widgets\/popular-project",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/popular-project\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 3898,
+          "sha1": "4ac5b11d6930054991b2b848e0cd7cb612943aba"
+        },
+        {
+          "path": "widgets\/popular-project\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 639,
+          "sha1": "9ae326173e55012959f3029a29a3879f8f50748d"
+        },
+        {
+          "path": "widgets\/media",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/media\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 3456,
+          "sha1": "4b2bbb32db728a45bf514d5b6410cac9a7426e46"
+        },
+        {
+          "path": "widgets\/media\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 716,
+          "sha1": "caf307d4a88b192dcaf3e65682d6c5b59862f45f"
+        },
+        {
+          "path": "widgets\/profile-project",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "widgets\/profile-project\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 6277,
+          "sha1": "11beccd2a7a4eb21373906290bbf70af2f7b53bd"
+        },
+        {
+          "path": "widgets\/profile-project\/Controller.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 634,
+          "sha1": "7237f79790ed0c401885ea27e9bfe1e34be71baf"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "settings\/my.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 373,
+          "sha1": "29885361b91e6282e219825ac77aa9ad077ef3b2"
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1038,
+          "sha1": "bf806c45f4e2c226ce967fbfa3f6ca4fa8e10613"
+        },
+        {
+          "path": "settings\/content.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 13618,
+          "sha1": "cc806eaa17020056fa103056d81bfb0328afac30"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Form\/Admin\/Global.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 851,
+          "sha1": "7c727a5c1bec508cb32877644f93f7a49c21d9e6"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/admin-settings\/mediamasonry.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 308,
+          "sha1": "9804f63a16072b1ac07f3a295e31428bd38815ff"
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/manage.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 5695,
+          "sha1": "e45f20e8e1e4b845a1373f83dbf2c1ef40198bd6"
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 4445,
+          "sha1": "e0554674f6af594e50a66692d603796967419dce"
+        },
+        {
+          "path": "views\/scripts\/index\/index-ajax.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1567,
+          "sha1": "9fea29e7d8522feb40aaec7569d5c0fa6bb81f4f"
+        },
+        {
+          "path": "views\/scripts\/index\/manage-ajax.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 2589,
+          "sha1": "4e5a0ab47995121dbb4f088533a29c75d161c1dc"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/MediaController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 2305,
+          "sha1": "2fe1f356e046978e457fa620e8f4cfa4087b5612"
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 574,
+          "sha1": "26f0f7a9e6b88ace3f425ab925e5d47a75f80ab5"
+        },
+        {
+          "path": "controllers\/AdminSettingsController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 997,
+          "sha1": "3569221cdfed2934bd73957083bf502371e86f08"
+        },
+        {
+          "path": "Plugin",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Plugin\/Core.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 845,
+          "sha1": "49a58ed02325b959b698fcdbe002a5f51acf1099"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/mooMasonry.js",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 6220,
+          "sha1": "69d68635943de21080361d15566571b2f2b7cbfd"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "2770",
+          "size": 4096,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/mobile.css",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1013,
+          "sha1": "45de5b34ff1c3c289eedc79956f3c12d6a569750"
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1013,
+          "sha1": "45de5b34ff1c3c289eedc79956f3c12d6a569750"
+        },
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0660",
+          "size": 1760,
+          "sha1": "561bf3fb806ddd19b60fbcafb575935e74cfc6e5"
+        }
+      ]
+    },
+    "application\/languages\/en\/mediamasonry.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/mediamasonry.csv",
+      "structure": {
+        "path": "mediamasonry.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0660",
+        "size": 954,
+        "sha1": "504e24a15da46ddaa78540c389467d059914dc63"
+      }
+    }
+  }
+}

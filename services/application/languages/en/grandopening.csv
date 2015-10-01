@@ -1,0 +1,47 @@
+"Days";"Days"
+"Hours";"Hours"
+"Minutes";"Minutes"
+"Seconds";"Seconds"
+"Name";"Name"
+"Subscribe";"Subscribe"
+"Leave your email to get notified when site is open.";"Leave your email to get notified when site is open."
+"Please enter a valid email address.";"Please enter a valid email address."
+"Someone has already registered this email address, please use another one.";"Someone has already registered this email address, please use another one."
+"Add E-mail";"Add E-mail"
+"Your email was added.";"Your email was added."
+"Request Invite";"Request Invite"
+"User requests (%d)";"User requests (%d)"
+"Send";"Send"
+"Send Test Email";"Send Test Email"
+"Max countdown date is 3 years : '%max_date%'";"Max countdown date is 3 years : '%max_date%'"
+"Today is min countdown date";"Today is min countdown date"
+"whUSER_FORM_ADMIN_SIGNUP_INVITEONLY_DESCRIPTION";"Do you want to turn off public signups and only allow invited members to signup? If yes, you allow admins or members invite new users. An invite code will be required on the signup page. Note, if you choose to allow only admins to invite new users then the 'Invite Your Friends' signup step will be disabled."
+"USER_FORM_ADMIN_SIGNUP_CHECKEMAIL_DESCRIPTION";"Should each invite code be bound to each invited email address? If set to NO, user with a valid invite code can signup regardless of their email address. If set to YES, member with a valid invite code that matches an email address that was invited can signup."
+"This page lists all users who added their emails. You can use this page to monitor these emails and send announcements.";"This page lists all users who added their emails. You can use this page to monitor these emails and send announcements."
+
+# grandopening_message
+"_EMAIL_GRANDOPENING_MESSAGE_TITLE";"Grand opening message"
+"_EMAIL_GRANDOPENING_MESSAGE_DESCRIPTION";"This email is sent when admin use grand opening feature 'Send message'."
+"_EMAIL_GRANDOPENING_MESSAGE_SUBJECT";"Dear subscriber"
+"_EMAIL_GRANDOPENING_MESSAGE_BODY";"[header]
+
+Hello, [recipient_name]!
+We are happy to announce our site is opened.
+
+Please click the following link to visit us:
+http://[host]
+
+[footer]"
+
+# grandopening_invite
+"_EMAIL_GRANDOPENING_INVITE_TITLE";"Grand opening invite"
+"_EMAIL_GRANDOPENING_INVITE_DESCRIPTION";"This email is sent when admin use grand opening feature 'Send invite'."
+"_EMAIL_GRANDOPENING_INVITE_SUBJECT";"Dear subscriber"
+"_EMAIL_GRANDOPENING_INVITE_BODY";"[header]
+Hello!
+[recipient_name] your invite code is [invite_code]
+
+Please click the following link to sign up:
+http://[host][invite_signup_link]
+
+[footer]"

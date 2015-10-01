@@ -1,0 +1,250 @@
+{
+  "type": "module",
+  "name": "api",
+  "version": "4.0.0",
+  "revision": null,
+  "path": "application\/modules\/Api",
+  "repository": null,
+  "date": "Fri, 13 Sep 2013 07:05:01 +0000",
+  "title": "api",
+  "description": "api",
+  "thumb": null,
+  "developer": null,
+  "authors": [
+    "api"
+  ],
+  "changeLog": null,
+  "meta": {
+    "date": "Fri, 13 Sep 2013 07:05:01 +0000",
+    "title": "api",
+    "description": "api",
+    "developer": null,
+    "authors": [
+      "api"
+    ],
+    "changeLog": null
+  },
+  "actions": [
+    "install",
+    "upgrade",
+    "refresh",
+    "enable",
+    "disable"
+  ],
+  "callback": {
+    "path": null,
+    "class": "Engine_Package_Installer_Module",
+    "priority": 100
+  },
+  "dependencies": null,
+  "tests": [
+    
+  ],
+  "permissions": [
+    
+  ],
+  "structure": {
+    "application\/modules\/Api": {
+      "type": "directory",
+      "path": "application\/modules\/Api",
+      "structure": [
+        {
+          "path": "Bootstrap.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 82,
+          "sha1": "c21ded281ba45b9ea91206973c3ad1ee45776baf"
+        },
+        {
+          "path": "controllers",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 102,
+          "sha1": null
+        },
+        {
+          "path": "controllers\/IndexController.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 164,
+          "sha1": "af57df01dd58165a3d678532430d4101146b6af5"
+        },
+        {
+          "path": "externals",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 204,
+          "sha1": null
+        },
+        {
+          "path": "externals\/.htaccess",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 147,
+          "sha1": "9f1638a8edbe1c5d28789e017fb35b2f2465f01e"
+        },
+        {
+          "path": "externals\/images",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 102,
+          "sha1": null
+        },
+        {
+          "path": "externals\/images\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 102,
+          "sha1": null
+        },
+        {
+          "path": "externals\/scripts\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "externals\/styles",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 102,
+          "sha1": null
+        },
+        {
+          "path": "externals\/styles\/main.css",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Form",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 102,
+          "sha1": null
+        },
+        {
+          "path": "Form\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "Model",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 102,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 102,
+          "sha1": null
+        },
+        {
+          "path": "Model\/DbTable\/.htempty",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 0,
+          "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+        },
+        {
+          "path": "settings",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 136,
+          "sha1": null
+        },
+        {
+          "path": "settings\/manifest.php",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 639,
+          "sha1": "1f14bca405113e08f4648a98f2c1cfc8aec0cf7b"
+        },
+        {
+          "path": "settings\/my-install.sql",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 157,
+          "sha1": "7bde89943807213755cf6a7ed4896dbd44fdf432"
+        },
+        {
+          "path": "views",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 102,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 102,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index",
+          "dir": true,
+          "file": false,
+          "perms": "0755",
+          "size": 102,
+          "sha1": null
+        },
+        {
+          "path": "views\/scripts\/index\/index.tpl",
+          "dir": false,
+          "file": true,
+          "perms": "0644",
+          "size": 76,
+          "sha1": "abcdda8af8795fcb093ca2698252dae3b8221774"
+        }
+      ]
+    },
+    "application\/languages\/en\/api.csv": {
+      "type": "file",
+      "path": "application\/languages\/en\/api.csv",
+      "structure": {
+        "path": "api.csv",
+        "dir": false,
+        "file": true,
+        "perms": "0644",
+        "size": 0,
+        "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+      }
+    }
+  }
+}
