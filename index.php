@@ -1,7 +1,8 @@
 <?php
-$servername = getenv( 'OPENSHIFT_MYSQL_DB_HOST' );
+$servername = getenv( 'OPENSHIFT_MYSQL_DB_HOST' ) .':'. getenv( 'OPENSHIFT_MYSQL_DB_PORT' );
 $username   = getenv( 'OPENSHIFT_MYSQL_DB_USERNAME' );
 $password   = getenv( 'OPENSHIFT_MYSQL_DB_PASSWORD' );
+
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
@@ -11,3 +12,4 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 echo "Connected successfully";
+?>

@@ -1,15 +1,40 @@
-<?php defined('_ENGINE') or die('Access Denied'); return array (
+<?php defined('_ENGINE') or die('Access Denied');
+
+$productionHost     = getenv( 'OPENSHIFT_MYSQL_DB_HOST' );
+$productionPort     = getenv( 'OPENSHIFT_MYSQL_DB_PORT' );
+$productionUser     = getenv( 'OPENSHIFT_MYSQL_DB_USERNAME' );
+$productionPassword = getenv( 'OPENSHIFT_MYSQL_DB_PASSWORD' );
+
+$host = 'localhost';
+$db   = 'wazzup_backup';
+
+if ( !empty( $productionHost ) ) {
+  $host = $productionHost .':'. $productionPort;
+  $db   = 'feelo';
+}
+
+$username = 'root';
+if ( !empty( $productionUser ) ) {
+  $username = $productionUser;
+}
+
+$password = '';
+if ( !empty( $productionPassword ) ) {
+  $password = $productionPassword;
+}
+
+return array (
   'adapter' => 'mysqli',
   'params' => 
   array (
-    'host' => 'localhost',
-    'username' => 'adminzPUja6X',
-    'password' => 'wPkw6InNUPru',
-    'dbname' => 'feelo',
-    'charset' => 'UTF8',
+    'host'             => $host,
+    'username'         => $username,
+    'password'         => $password,
+    'dbname'           => $db,
+    'charset'          => 'UTF8',
     'adapterNamespace' => 'Zend_Db_Adapter',
   ),
   'isDefaultTableAdapter' => true,
-  'tablePrefix' => 'engine4_',
-  'tableAdapterClass' => 'Engine_Db_Table',
+  'tablePrefix'           => 'engine4_',
+  'tableAdapterClass'     => 'Engine_Db_Table',
 ); ?>
