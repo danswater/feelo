@@ -1,15 +1,27 @@
 <?php
-$servername = getenv( 'OPENSHIFT_MYSQL_DB_HOST' ) .':'. getenv( 'OPENSHIFT_MYSQL_DB_PORT' );
-$username   = getenv( 'OPENSHIFT_MYSQL_DB_USERNAME' );
-$password   = getenv( 'OPENSHIFT_MYSQL_DB_PASSWORD' );
-
-
-// Create connection
-$conn = new mysqli($servername, $username, $password);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-} 
-echo "Connected successfully";
+	session_start();
+	$session_id = session_id();
+	require_once 'includes/helper/file_scanner.php';
 ?>
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> -->
+<!DOCTYPE HTML>
+<html ng-app="yamba" ng-controller="AppController" >
+	<head>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Yamba | {{ App.title }}</title>
+		<!-- for the maintime static base -->
+		<?php require_once "includes/fonts.php"; ?>
+		<?php require_once "includes/css.php"; ?>
+		<script type="text/javascript">
+			var services_url = 'http://localhost/feelo/proxy.php?url=';
+			var session_id = '<?php echo $session_id; ?>';
+		</script>
+	</head>
+	<body>
+		<div ui-view></div>
+		<?php require_once "includes/javascript.php"; ?>
+	</body>
+</html>
