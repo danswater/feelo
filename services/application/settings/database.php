@@ -4,7 +4,7 @@
   array (
     'host' => 'localhost',
     'username' => 'adminzPUja6X',
-    'password' => wPkw6InNUPru,
+    'password' => 'wPkw6InNUPru',
     'dbname' => 'feelo',
     'charset' => 'UTF8',
     'adapterNamespace' => 'Zend_Db_Adapter',
