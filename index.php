@@ -16,11 +16,8 @@
 		<?php require_once "includes/fonts.php"; ?>
 		<?php require_once "includes/css.php"; ?>
 		<?php
-			$productionUrl = getenv( 'OPENSHIFT_APP_NAME' );
-			$serviceUrl = 'http://localhost/feelo/proxy.php?url=';
-			if ( !empty( $productionUrl ) ) {
-				$serviceUrl = 'http://feelo-danswater.rhcloud.com/proxy.php?url=';
-			}
+			$baseName = '/feelo/proxy.php?url=';
+			$serviceUrl = 'http://' . $_SERVER[ 'SERVER_ADDR' ] . $baseName;
 		?>
 		<script type="text/javascript">
 			var services_url = '<?php echo $serviceUrl; ?>';
