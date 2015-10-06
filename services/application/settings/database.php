@@ -5,8 +5,8 @@ $productionPort     = getenv( 'OPENSHIFT_MYSQL_DB_PORT' );
 $productionUser     = getenv( 'OPENSHIFT_MYSQL_DB_USERNAME' );
 $productionPassword = getenv( 'OPENSHIFT_MYSQL_DB_PASSWORD' );
 
-$host = 'localhost';
-$db   = 'wazzup_backup';
+$host = 'root';
+$db   = 'feelo';
 
 if ( !empty( $productionHost ) ) {
   $host = $productionHost .':'. $productionPort;
@@ -18,14 +18,14 @@ if ( !empty( $productionUser ) ) {
   $username = $productionUser;
 }
 
-$password = '';
+$password = '15feelo15';
 if ( !empty( $productionPassword ) ) {
   $password = $productionPassword;
 }
 
 return array (
   'adapter' => 'mysqli',
-  'params' => 
+  'params' =>
   array (
     'host'             => $host,
     'username'         => $username,
