@@ -6,7 +6,7 @@ abstract class Request{
 
 		$ch = curl_init();
 		$url = $this->server . $url;
-		$data_string = json_encode( $data ); 
+		$data_string = json_encode( $data );
 
 		curl_setopt( $ch, CURLOPT_RETURNTRANSFER , true );
 		curl_setopt( $ch, CURLOPT_URL, $url );
@@ -26,7 +26,7 @@ abstract class Request{
 			          	. ';filename=' . $_FILES['Filedata']['name']
 					    . ';type='     . $_FILES['Filedata']['type'];
 
-				}	
+				}
 
 				curl_setopt( $ch, CURLOPT_POSTFIELDS, http_build_query( $data ) );
 				break;
@@ -44,7 +44,7 @@ abstract class Request{
 		}
 
 
-		
+
 		$resp = curl_exec($ch);
 		if(!$resp){
 		    die('Error: "' . curl_error($ch) . '" - Code: ' . curl_errno($ch));
@@ -53,7 +53,7 @@ abstract class Request{
 
 
 		return $resp;
-	}	
+	}
 
 }
 
@@ -86,8 +86,9 @@ class Proxy extends Request{
 }
 
 
-
-$proxyServer = new Proxy( "http://feelo-danswater.rhcloud.com/services/" );
+$baseName = '/services/';
+$proxyUrl = 'http://' . $_SERVER[ 'SERVER_ADDR' ] . $baseName;
+$proxyServer = new Proxy( $proxyUrl );
 $result = array();
 switch ( strtolower( $_SERVER[ "REQUEST_METHOD"] ) ) {
 
