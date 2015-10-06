@@ -5,7 +5,7 @@ $productionPort     = getenv( 'OPENSHIFT_MYSQL_DB_PORT' );
 $productionUser     = getenv( 'OPENSHIFT_MYSQL_DB_USERNAME' );
 $productionPassword = getenv( 'OPENSHIFT_MYSQL_DB_PASSWORD' );
 
-$host = 'root';
+$host = 'localhost';
 $db   = 'feelo';
 
 if ( !empty( $productionHost ) ) {
